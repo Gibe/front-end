@@ -4,4 +4,4 @@
 
 ### Modules
 
-* **[Grid](https://github.com/Gibe/front-end/blob/master/modules/_grid.scss)** (with flexbox support):
+* **[Grid](https://github.com/Gibe/front-end/blob/master/scss/modules/_grid.scss)** (with flexbox support):
