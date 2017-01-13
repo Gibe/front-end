@@ -10,4 +10,8 @@
 
 ### Modules
 
+* **Popups**
+
 ### Useful plugins
+
+* [bxSlider](http://bxslider.com/)
