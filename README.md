@@ -10,7 +10,7 @@
 
 ### Modules
 
-* **Popups**
+* **[Popups](https://github.com/Gibe/front-end/blob/master/scripts/modules/popups.js)**
 
 ### Useful plugins
 
