@@ -1,5 +1,7 @@
-# Front end CSS
+# Front end
 
-## Modules
+## CSS
 
-* **[Grid](https://github.com/Gibe/front-end-css/blob/master/modules/_grid.scss)** (with flexbox support):
+### Modules
+
+* **[Grid](https://github.com/Gibe/front-end/blob/master/modules/_grid.scss)** (with flexbox support):
