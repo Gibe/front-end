@@ -45,246 +45,252 @@ $gutterWide: 15px;
 		// alignment
 		&--align-left
 		{
-			text-align: left;
-			justify-content: flex-start;
-			@include mq-min($bpMobileLarge)
+			&--left
 			{
-				&--mobile-large
+				text-align: left;
+				justify-content: flex-start;
+				@include mq-min($bpMobileLarge)
 				{
-					text-align: left;
-					justify-content: flex-start;
+					&--mobile-large
+					{
+						text-align: left;
+						justify-content: flex-start;
+					}
+				}
+				@include mq-min($bpTablet)
+				{
+					&--tablet
+					{
+						text-align: left;
+						justify-content: flex-start;
+					}
+				}
+				@include mq-min($bpTabletLarge)
+				{
+					&--tablet-large
+					{
+						text-align: left;
+						justify-content: flex-start;
+					}
+				}
+				@include mq-min($bpDesktop)
+				{
+					&--desktop
+					{
+						text-align: left;
+						justify-content: flex-start;
+					}
+				}
+				@include mq-min($bpDesktopLarge)
+				{
+					&--desktop-large
+					{
+						text-align: left;
+						justify-content: flex-start;
+					}
+				}
+				@include mq-min($bpLarge)
+				{
+					&--large
+					{
+						text-align: left;
+						justify-content: flex-start;
+					}
 				}
 			}
-			@include mq-min($bpTablet)
+			&--right
 			{
-				&--tablet
+				text-align: right;
+				justify-content: flex-end;
+				@include mq-min($bpMobileLarge)
 				{
-					text-align: left;
-					justify-content: flex-start;
+					&--mobile-large
+					{
+						text-align: right;
+						justify-content: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpTabletLarge)
-			{
-				&--tablet-large
+				@include mq-min($bpTablet)
 				{
-					text-align: left;
-					justify-content: flex-start;
+					&--tablet
+					{
+						text-align: right;
+						justify-content: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpDesktop)
-			{
-				&--desktop
+				@include mq-min($bpTabletLarge)
 				{
-					text-align: left;
-					justify-content: flex-start;
+					&--tablet-large
+					{
+						text-align: right;
+						justify-content: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpDesktopLarge)
-			{
-				&--desktop-large
+				@include mq-min($bpDesktop)
 				{
-					text-align: left;
-					justify-content: flex-start;
+					&--desktop
+					{
+						text-align: right;
+						justify-content: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpLarge)
-			{
-				&--large
+				@include mq-min($bpDesktopLarge)
 				{
-					text-align: left;
-					justify-content: flex-start;
+					&--desktop-large
+					{
+						text-align: right;
+						justify-content: flex-end;
+					}
 				}
-			}
-		}
-		&--align-right
-		{
-			text-align: right;
-			justify-content: flex-end;
-			@include mq-min($bpMobileLarge)
-			{
-				&--mobile-large
+				@include mq-min($bpLarge)
 				{
-					text-align: right;
-					justify-content: flex-end;
-				}
-			}
-			@include mq-min($bpTablet)
-			{
-				&--tablet
-				{
-					text-align: right;
-					justify-content: flex-end;
-				}
-			}
-			@include mq-min($bpTabletLarge)
-			{
-				&--tablet-large
-				{
-					text-align: right;
-					justify-content: flex-end;
-				}
-			}
-			@include mq-min($bpDesktop)
-			{
-				&--desktop
-				{
-					text-align: right;
-					justify-content: flex-end;
-				}
-			}
-			@include mq-min($bpDesktopLarge)
-			{
-				&--desktop-large
-				{
-					text-align: right;
-					justify-content: flex-end;
-				}
-			}
-			@include mq-min($bpLarge)
-			{
-				&--large
-				{
-					text-align: right;
-					justify-content: flex-end;
+					&--large
+					{
+						text-align: right;
+						justify-content: flex-end;
+					}
 				}
 			}
 		}
 		// vertical
-		&--vertical-top
+		&--vertical
 		{
-			align-items: flex-start;
-			@include mq-min($bpMobileLarge)
+			&--top
 			{
-				&--mobile-large
+				align-items: flex-start;
+				@include mq-min($bpMobileLarge)
 				{
-					align-items: flex-start;
+					&--mobile-large
+					{
+						align-items: flex-start;
+					}
+				}
+				@include mq-min($bpTablet)
+				{
+					&--tablet
+					{
+						align-items: flex-start;
+					}
+				}
+				@include mq-min($bpTabletLarge)
+				{
+					&--tablet-large
+					{
+						align-items: flex-start;
+					}
+				}
+				@include mq-min($bpDesktop)
+				{
+					&--desktop
+					{
+						align-items: flex-start;
+					}
+				}
+				@include mq-min($bpDesktopLarge)
+				{
+					&--desktop-large
+					{
+						align-items: flex-start;
+					}
+				}
+				@include mq-min($bpLarge)
+				{
+					&--large
+					{
+						align-items: flex-start;
+					}
 				}
 			}
-			@include mq-min($bpTablet)
+			&--middle
 			{
-				&--tablet
+				align-items: center;
+				@include mq-min($bpMobileLarge)
 				{
-					align-items: flex-start;
+					&--mobile-large
+					{
+						align-items: center;
+					}
+				}
+				@include mq-min($bpTablet)
+				{
+					&--tablet
+					{
+						align-items: center;
+					}
+				}
+				@include mq-min($bpTabletLarge)
+				{
+					&--tablet-large
+					{
+						align-items: center;
+					}
+				}
+				@include mq-min($bpDesktop)
+				{
+					&--desktop
+					{
+						align-items: center;
+					}
+				}
+				@include mq-min($bpDesktopLarge)
+				{
+					&--desktop-large
+					{
+						align-items: center;
+					}
+				}
+				@include mq-min($bpLarge)
+				{
+					&--large
+					{
+						align-items: center;
+					}
 				}
 			}
-			@include mq-min($bpTabletLarge)
+			&--bottom
 			{
-				&--tablet-large
+				align-items: flex-end;
+				@include mq-min($bpMobileLarge)
 				{
-					align-items: flex-start;
+					&--mobile-large
+					{
+						align-items: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpDesktop)
-			{
-				&--desktop
+				@include mq-min($bpTablet)
 				{
-					align-items: flex-start;
+					&--tablet
+					{
+						align-items: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpDesktopLarge)
-			{
-				&--desktop-large
+				@include mq-min($bpTabletLarge)
 				{
-					align-items: flex-start;
+					&--tablet-large
+					{
+						align-items: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpLarge)
-			{
-				&--large
+				@include mq-min($bpDesktop)
 				{
-					align-items: flex-start;
+					&--desktop
+					{
+						align-items: flex-end;
+					}
 				}
-			}
-		}
-		&--vertical-middle
-		{
-			align-items: center;
-			@include mq-min($bpMobileLarge)
-			{
-				&--mobile-large
+				@include mq-min($bpDesktopLarge)
 				{
-					align-items: center;
+					&--desktop-large
+					{
+						align-items: flex-end;
+					}
 				}
-			}
-			@include mq-min($bpTablet)
-			{
-				&--tablet
+				@include mq-min($bpLarge)
 				{
-					align-items: center;
-				}
-			}
-			@include mq-min($bpTabletLarge)
-			{
-				&--tablet-large
-				{
-					align-items: center;
-				}
-			}
-			@include mq-min($bpDesktop)
-			{
-				&--desktop
-				{
-					align-items: center;
-				}
-			}
-			@include mq-min($bpDesktopLarge)
-			{
-				&--desktop-large
-				{
-					align-items: center;
-				}
-			}
-			@include mq-min($bpLarge)
-			{
-				&--large
-				{
-					align-items: center;
-				}
-			}
-		}
-		&--vertical-bottom
-		{
-			align-items: flex-end;
-			@include mq-min($bpMobileLarge)
-			{
-				&--mobile-large
-				{
-					align-items: flex-end;
-				}
-			}
-			@include mq-min($bpTablet)
-			{
-				&--tablet
-				{
-					align-items: flex-end;
-				}
-			}
-			@include mq-min($bpTabletLarge)
-			{
-				&--tablet-large
-				{
-					align-items: flex-end;
-				}
-			}
-			@include mq-min($bpDesktop)
-			{
-				&--desktop
-				{
-					align-items: flex-end;
-				}
-			}
-			@include mq-min($bpDesktopLarge)
-			{
-				&--desktop-large
-				{
-					align-items: flex-end;
-				}
-			}
-			@include mq-min($bpLarge)
-			{
-				&--large
-				{
-					align-items: flex-end;
+					&--large
+					{
+						align-items: flex-end;
+					}
 				}
 			}
 		}
