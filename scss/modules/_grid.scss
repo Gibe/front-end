@@ -11,6 +11,11 @@ $gutterWide: 15px;
 	max-width: (($col * $cols) * 1%);
 }
 
+@mixin getOffset($cols)
+{
+	margin-left: (($col * $cols) * 1%);
+}
+
 // generic
 .m-grid
 {
@@ -643,6 +648,74 @@ $gutterWide: 15px;
 				&--order--#{$i}--large
 				{
 					order: $i;
+				}
+			}
+		}
+		// offset
+		@for $i from 1 through 11
+		{
+			&--offset--#{$i}
+			{
+				@include getOffset($i);
+			}
+		}
+		@include mq-min($bpMobileLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--offset--#{$i}--mobile-large
+				{
+					@include getOffset($i);
+				}
+			}
+		}
+		@include mq-min($bpTablet)
+		{
+			@for $i from 1 through 11
+			{
+				&--offset--#{$i}--tablet
+				{
+					@include getOffset($i);
+				}
+			}
+		}
+		@include mq-min($bpTabletLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--offset--#{$i}--tablet-large
+				{
+					@include getOffset($i);
+				}
+			}
+		}
+		@include mq-min($bpDesktop)
+		{
+			@for $i from 1 through 11
+			{
+				&--offset--#{$i}--desktop
+				{
+					@include getOffset($i);
+				}
+			}
+		}
+		@include mq-min($bpDesktopLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--offset--#{$i}--desktop-large
+				{
+					@include getOffset($i);
+				}
+			}
+		}
+		@include mq-min($bpLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--offset--#{$i}--large
+				{
+					@include getOffset($i);
 				}
 			}
 		}
