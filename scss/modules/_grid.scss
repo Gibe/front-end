@@ -42,19 +42,447 @@ $gutterWide: 15px;
 		position: relative;
 		text-align: center;
 		z-index: 1;
+		// alignment
 		&--align-left
 		{
 			text-align: left;
 			justify-content: flex-start;
+			@include mq-min($bpMobileLarge)
+			{
+				&--mobile-large
+				{
+					text-align: left;
+					justify-content: flex-start;
+				}
+			}
+			@include mq-min($bpTablet)
+			{
+				&--tablet
+				{
+					text-align: left;
+					justify-content: flex-start;
+				}
+			}
+			@include mq-min($bpTabletLarge)
+			{
+				&--tablet-large
+				{
+					text-align: left;
+					justify-content: flex-start;
+				}
+			}
+			@include mq-min($bpDesktop)
+			{
+				&--desktop
+				{
+					text-align: left;
+					justify-content: flex-start;
+				}
+			}
+			@include mq-min($bpDesktopLarge)
+			{
+				&--desktop-large
+				{
+					text-align: left;
+					justify-content: flex-start;
+				}
+			}
+			@include mq-min($bpLarge)
+			{
+				&--large
+				{
+					text-align: left;
+					justify-content: flex-start;
+				}
+			}
 		}
 		&--align-right
 		{
 			text-align: right;
 			justify-content: flex-end;
+			@include mq-min($bpMobileLarge)
+			{
+				&--mobile-large
+				{
+					text-align: right;
+					justify-content: flex-end;
+				}
+			}
+			@include mq-min($bpTablet)
+			{
+				&--tablet
+				{
+					text-align: right;
+					justify-content: flex-end;
+				}
+			}
+			@include mq-min($bpTabletLarge)
+			{
+				&--tablet-large
+				{
+					text-align: right;
+					justify-content: flex-end;
+				}
+			}
+			@include mq-min($bpDesktop)
+			{
+				&--desktop
+				{
+					text-align: right;
+					justify-content: flex-end;
+				}
+			}
+			@include mq-min($bpDesktopLarge)
+			{
+				&--desktop-large
+				{
+					text-align: right;
+					justify-content: flex-end;
+				}
+			}
+			@include mq-min($bpLarge)
+			{
+				&--large
+				{
+					text-align: right;
+					justify-content: flex-end;
+				}
+			}
 		}
+		// vertical
+		&--vertical-top
+		{
+			align-items: flex-start;
+			@include mq-min($bpMobileLarge)
+			{
+				&--mobile-large
+				{
+					align-items: flex-start;
+				}
+			}
+			@include mq-min($bpTablet)
+			{
+				&--tablet
+				{
+					align-items: flex-start;
+				}
+			}
+			@include mq-min($bpTabletLarge)
+			{
+				&--tablet-large
+				{
+					align-items: flex-start;
+				}
+			}
+			@include mq-min($bpDesktop)
+			{
+				&--desktop
+				{
+					align-items: flex-start;
+				}
+			}
+			@include mq-min($bpDesktopLarge)
+			{
+				&--desktop-large
+				{
+					align-items: flex-start;
+				}
+			}
+			@include mq-min($bpLarge)
+			{
+				&--large
+				{
+					align-items: flex-start;
+				}
+			}
+		}
+		&--vertical-middle
+		{
+			align-items: center;
+			@include mq-min($bpMobileLarge)
+			{
+				&--mobile-large
+				{
+					align-items: center;
+				}
+			}
+			@include mq-min($bpTablet)
+			{
+				&--tablet
+				{
+					align-items: center;
+				}
+			}
+			@include mq-min($bpTabletLarge)
+			{
+				&--tablet-large
+				{
+					align-items: center;
+				}
+			}
+			@include mq-min($bpDesktop)
+			{
+				&--desktop
+				{
+					align-items: center;
+				}
+			}
+			@include mq-min($bpDesktopLarge)
+			{
+				&--desktop-large
+				{
+					align-items: center;
+				}
+			}
+			@include mq-min($bpLarge)
+			{
+				&--large
+				{
+					align-items: center;
+				}
+			}
+		}
+		&--vertical-bottom
+		{
+			align-items: flex-end;
+			@include mq-min($bpMobileLarge)
+			{
+				&--mobile-large
+				{
+					align-items: flex-end;
+				}
+			}
+			@include mq-min($bpTablet)
+			{
+				&--tablet
+				{
+					align-items: flex-end;
+				}
+			}
+			@include mq-min($bpTabletLarge)
+			{
+				&--tablet-large
+				{
+					align-items: flex-end;
+				}
+			}
+			@include mq-min($bpDesktop)
+			{
+				&--desktop
+				{
+					align-items: flex-end;
+				}
+			}
+			@include mq-min($bpDesktopLarge)
+			{
+				&--desktop-large
+				{
+					align-items: flex-end;
+				}
+			}
+			@include mq-min($bpLarge)
+			{
+				&--large
+				{
+					align-items: flex-end;
+				}
+			}
+		}
+		// reverse
 		&--reverse
 		{
 			direction: rtl;
+			@include mq-min($bpMobileLarge)
+			{
+				&--mobile-large
+				{
+					direction: rtl;
+				}
+			}
+			@include mq-min($bpTablet)
+			{
+				&--tablet
+				{
+					direction: rtl;
+				}
+			}
+			@include mq-min($bpTabletLarge)
+			{
+				&--tablet-large
+				{
+					direction: rtl;
+				}
+			}
+			@include mq-min($bpDesktop)
+			{
+				&--desktop
+				{
+					direction: rtl;
+				}
+			}
+			@include mq-min($bpDesktopLarge)
+			{
+				&--desktop-large
+				{
+					direction: rtl;
+				}
+			}
+			@include mq-min($bpLarge)
+			{
+				&--large
+				{
+					direction: rtl;
+				}
+			}
+			.flexbox &
+			{
+				direction: ltr;
+				flex-direction: row-reverse;
+				@include mq-min($bpMobileLarge)
+				{
+					&--mobile-large
+					{
+						direction: ltr;
+						flex-direction: row-reverse;
+					}
+				}
+				@include mq-min($bpTablet)
+				{
+					&--tablet
+					{
+						direction: ltr;
+						flex-direction: row-reverse;
+					}
+				}
+				@include mq-min($bpTabletLarge)
+				{
+					&--tablet-large
+					{
+						direction: ltr;
+						flex-direction: row-reverse;
+					}
+				}
+				@include mq-min($bpDesktop)
+				{
+					&--desktop
+					{
+						direction: ltr;
+						flex-direction: row-reverse;
+					}
+				}
+				@include mq-min($bpDesktopLarge)
+				{
+					&--desktop-large
+					{
+						direction: ltr;
+						flex-direction: row-reverse;
+					}
+				}
+				@include mq-min($bpLarge)
+				{
+					&--large
+					{
+						direction: ltr;
+						flex-direction: row-reverse;
+					}
+				}
+			}
+		}
+		// distribution
+		&--distribute
+		{
+			&--around
+			{
+				justify-content: space-around;
+				@include mq-min($bpMobileLarge)
+				{
+					&--mobile-large
+					{
+						justify-content: space-around;
+					}
+				}
+				@include mq-min($bpTablet)
+				{
+					&--tablet
+					{
+						justify-content: space-around;
+					}
+				}
+				@include mq-min($bpTabletLarge)
+				{
+					&--tablet-large
+					{
+						justify-content: space-around;
+					}
+				}
+				@include mq-min($bpDesktop)
+				{
+					&--desktop
+					{
+						justify-content: space-around;
+					}
+				}
+				@include mq-min($bpDesktopLarge)
+				{
+					&--desktop-large
+					{
+						justify-content: space-around;
+					}
+				}
+				@include mq-min($bpLarge)
+				{
+					&--large
+					{
+						justify-content: space-around;
+					}
+				}
+			}
+			&--between
+			{
+				justify-content: space-between;
+				@include mq-min($bpMobileLarge)
+				{
+					&--mobile-large
+					{
+						justify-content: space-between;
+					}
+				}
+				@include mq-min($bpTablet)
+				{
+					&--tablet
+					{
+						justify-content: space-between;
+					}
+				}
+				@include mq-min($bpTabletLarge)
+				{
+					&--tablet-large
+					{
+						justify-content: space-between;
+					}
+				}
+				@include mq-min($bpDesktop)
+				{
+					&--desktop
+					{
+						justify-content: space-between;
+					}
+				}
+				@include mq-min($bpDesktopLarge)
+				{
+					&--desktop-large
+					{
+						justify-content: space-between;
+					}
+				}
+				@include mq-min($bpLarge)
+				{
+					&--large
+					{
+						justify-content: space-between;
+					}
+				}
+			}
 		}
 	}
 	&__col
@@ -72,6 +500,7 @@ $gutterWide: 15px;
 		vertical-align: top;
 		width: 100%;
 		z-index: 1;
+		// columns
 		@for $i from 1 through 11
 		{
 			&--#{$i}
@@ -142,6 +571,74 @@ $gutterWide: 15px;
 		.flexbox &
 		{
 			display: flex;
+		}
+		// ordering
+		@for $i from 1 through 11
+		{
+			&--order--#{$i}
+			{
+				order: $i;
+			}
+		}
+		@include mq-min($bpMobileLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--order--#{$i}--mobile-large
+				{
+					order: $i;
+				}
+			}
+		}
+		@include mq-min($bpTablet)
+		{
+			@for $i from 1 through 11
+			{
+				&--order--#{$i}--tablet
+				{
+					order: $i;
+				}
+			}
+		}
+		@include mq-min($bpTabletLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--order--#{$i}--tablet-large
+				{
+					order: $i;
+				}
+			}
+		}
+		@include mq-min($bpDesktop)
+		{
+			@for $i from 1 through 11
+			{
+				&--order--#{$i}--desktop
+				{
+					order: $i;
+				}
+			}
+		}
+		@include mq-min($bpDesktopLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--order--#{$i}--desktop-large
+				{
+					order: $i;
+				}
+			}
+		}
+		@include mq-min($bpLarge)
+		{
+			@for $i from 1 through 11
+			{
+				&--order--#{$i}--large
+				{
+					order: $i;
+				}
+			}
 		}
 		&--tight
 		{
