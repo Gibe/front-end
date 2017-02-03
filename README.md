@@ -1,8 +1,15 @@
 # Front end
 
+* [CSS](#css)
+ * [BEM structure](#css)
+ * [Modules](#modules)
+* [JavaScript](#javascript)
+ * Modules
+ * Useful plugins
+
 ## CSS
 
-### Structure
+### BEM structure
 
 ```scss
 .block
