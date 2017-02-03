@@ -4,8 +4,8 @@
  * [BEM structure](#css)
  * [Modules](#modules)
 * [JavaScript](#javascript)
- * Modules
- * Useful plugins
+ * [Modules](#modules-1)
+ * [Useful plugins](#useful-plugins)
 
 ## CSS
 
