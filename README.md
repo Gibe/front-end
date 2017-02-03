@@ -1,7 +1,7 @@
 # Front end
 
 * [CSS](#css)
- * [BEM structure](#css)
+ * [BEM structure](#bem-structure)
  * [Modules](#modules)
 * [JavaScript](#javascript)
  * [Modules](#modules-1)
