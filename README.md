@@ -11,6 +11,18 @@
 
 ### BEM structure
 
+Consider the following HTML:
+
+```html
+<section class="block block--modifier">
+  <div class="block__element">
+    <p>Lorem ipsum dolar...</p>
+  </div>
+</section>
+```
+
+Here is some suggested SCSS for this block/element/modifier (BEM) combo:
+
 ```scss
 .block
 {
