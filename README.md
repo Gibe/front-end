@@ -110,4 +110,5 @@ Here is some suggested SCSS for this block/element/modifier (BEM) combo:
 
 ### Useful plugins
 
-* [bxSlider](http://bxslider.com/)
+* **[bxSlider](http://bxslider.com/)** responsive image gallery/slider
+* **[Slideout.js](https://slideout.js.org/)** touch slideout mobile navigation
