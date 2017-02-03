@@ -60,6 +60,7 @@ Here is some suggested SCSS for this block/element/modifier (BEM) combo:
   @include transform(skewX(-5deg));
   @include transition(color .2s);  
   
+  // elements
   &__element
   {  
     // style
@@ -68,12 +69,14 @@ Here is some suggested SCSS for this block/element/modifier (BEM) combo:
     // box model
     border: 1px solid $colorWhite;
     
+    // media queries
     @include mq-min($bpDesktop)
     {  
       border-color: $colorBase;   
     }
   }  
   
+  // media queries
   @include mq-min($bpDesktop)
   {  
     // style
@@ -85,6 +88,7 @@ Here is some suggested SCSS for this block/element/modifier (BEM) combo:
     padding: 20px;    
   }
   
+  // modifiers
   &--modifier
   {
     // style
@@ -95,6 +99,7 @@ Here is some suggested SCSS for this block/element/modifier (BEM) combo:
     border-color: $colorDarkGrey;  
   }
   
+  // external influences
   .js &
   {
     display: block;
