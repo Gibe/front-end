@@ -66,7 +66,12 @@ Here is some suggested SCSS for this block/element/modifier (BEM) combo:
     color: $colorBase;
     
     // box model
-    border-color: $colorWhite;
+    border: 1px solid $colorWhite;
+    
+    @include mq-min($bpDesktop)
+    {  
+      border-color: $colorBase;   
+    }
   }  
   
   @include mq-min($bpDesktop)
