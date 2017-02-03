@@ -14,11 +14,15 @@
 Consider the following HTML:
 
 ```html
-<section class="block block--modifier">
-  <div class="block__element">
-    <p>Lorem ipsum dolar...</p>
-  </div>
-</section>
+<html class="js">
+  <body>
+    <section class="block block--modifier">
+      <div class="block__element">
+        <p>Lorem ipsum dolar...</p>
+      </div>
+    </section>
+  </body>
+</html>
 ```
 
 Here is some suggested SCSS for this block/element/modifier (BEM) combo:
